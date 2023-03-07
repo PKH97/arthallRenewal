@@ -1,15 +1,19 @@
 import React from "react";
+import './css/footer.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import { faPause } from "@fortawesome/free-solid-svg-icons";
+
 
 function FooterNotice() {
     return(
         <div className="footer_notice">
             <div className="notice_button">
                 <div className="notice_title"></div>
-                <button className="notice_subbtn">+</button>
+                <div className="notice_subbtn">
+                    <button>+</button>
+                </div>
             </div>
             <div className="notice_box">
                 <div className="notice_view"></div>

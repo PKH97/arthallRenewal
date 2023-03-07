@@ -1,51 +1,54 @@
+/* ========== 상단 ========== */
 .header {
     position: fixed;
-    
+    z-index: 10;
     width: 100%;
-    height: 150px;
-
-    background-color: aqua;
+    height: 145px;
+    box-shadow: 0px 3px 6px -1px #bbbbbb;
 }
+
+
+/* ========== 상단버튼 ========== */
 .header_in {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
     width: 100%;
-    height: 50px;
+    height: 45px;
 
     background-color: #FAFAFA;
     border-bottom: 1px solid #a1a1a1;
 }
-.header_button {
-    float: right;
-
-    width: 350px;
-    height: 50px;
-
-    background-color: #FAFAFA;
-}
 .login_btn {
     width: 95px;
-    height: 50px;
+    height: 45px;
 
     border-left: 1px solid #a1a1a1;
+    border-bottom: 1px solid #a1a1a1;
     background-color: #FAFAFA;
 }
 .english_btn {
     width: 110px;
-    height: 49px;
+    height: 45px;
 
     border-left: 1px solid #a1a1a1;
+    border-bottom: 1px solid #a1a1a1;
     background-color: #FAFAFA;
 }
 .daejeon_btn {
     width: 120px;
-    height: 50px;
+    height: 45px;
 
     border-left: 1px solid #a1a1a1;
+    border-bottom: 1px solid #a1a1a1;
     background-color: #FAFAFA;
 }
 
+
+/* ========== 상단 메뉴바 ========== */
 .header_menu {
     display: flex;
-    
 
     width: 100%;
     height: 100px;
@@ -54,56 +57,69 @@
     border-bottom: 1px solid #a1a1a1;
     box-shadow: 0 0px 4px -4px black;
 }
+
+/* ========== 상단 로고 ========== */
 .logo {
-    width: 15%;
+    width: 23%;
     height: 100px;
-    background-color: lightcoral;
+    background-color: #fff;
 }
+.logo img {
+    margin-top: 35px;
+    margin-left: 90px;
+}
+
+/* ========== 상단 메인 메뉴 ========== */
 .nav {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 
-    width: 62.5%;
+    width: 60%;
     height: 100px;
-
-    font-size: 18px;
-    font-weight: 600;
 
     background-color: #fff;
 }
 .nav li {
-    width: 90%;
+    display: flex;
+    justify-content: center;
+
+    width: 100px;
     height: 30px;
-    padding-top: 40px;
+
+    margin-top: 35px;
+    margin-right: 20px;
+
+    font-size: 18px;
+    font-weight: 600;
     text-decoration: none;
     text-align: center;
+
     color: black;
 }
 
+
+/* ========== 상단 검색창 ========== */
 .search {
     display: flex;
     flex-direction: row;
     align-items: center;
 
-    width: 22.5%;
+    width: 17%;
     height: 100px;
     
     background-color: #fff;
 }
 .search_bar {
     display: flex;
-    margin-left: 15px;
     width: 200px;
     height: 30px;
 }
 .search_bar:hover {
-    color: blue;
+    color: rgb(5, 5, 102);
 }
 .search_btn {
     width: 130px;
     height: 30px;
-    padding-left: 5px;
     border-bottom: 2px solid #000;
     font-size: 15px;
     font-weight: 600;
@@ -112,8 +128,8 @@
     cursor: pointer;
 }
 .search_btn:hover {
-    color: blue;
-    border-bottom: 2px solid blue;
+    color: rgb(5, 5, 102);
+    border-bottom: 2px solid rgb(5, 5, 102);
 }
 .fa-magnifying-glass {
     width: 30px;
@@ -127,5 +143,5 @@
     cursor: pointer;
 }
 .fa-bars:hover {
-    color: blue;
+    color: rgb(5, 5, 102);
 }

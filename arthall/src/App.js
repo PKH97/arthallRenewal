@@ -1,8 +1,10 @@
 import React from 'react';
-import { Link, Route } from 'react-router-dom';
-import './css/App.css';
+import { Route } from 'react-router-dom';
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Header from './header';
+import MainArea from './mainArea';
 import Performance from './components/performance';
 import Rent from './components/rent';
 import Academy from './components/academy';
@@ -14,13 +16,10 @@ import Footer from './footer';
 
 function App() {
   return (
-    <div>
-      <div className='container'>
-          <Header />
-          <Footer />
-      </div>
-
-      <div>
+    <div style={{width:'100%'}}>
+      <Header />
+      <div> {/* 화면에 보이는 부분 */}
+        <Route path='/' exact={true} component={MainArea}></Route>
         <Route path='/components/performance' component={Performance}></Route>
         <Route path="/components/rent" component={Rent}></Route>
         <Route path="/components/academy" component={Academy}></Route>
@@ -28,6 +27,7 @@ function App() {
         <Route path="/components/visiting" component={Visiting}></Route>
         <Route path="/components/customer" component={Customer}></Route>
       </div>
+      <Footer />
     </div>
   );
 }
