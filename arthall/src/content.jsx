@@ -1,12 +1,12 @@
 import React from "react";
-import './css/content.css';
+import './content.css';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { faPause } from "@fortawesome/free-solid-svg-icons";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
-import { faPlus } from "@fortawesome/free-solid-svg-icons"
+// import { faPlus } from "@fortawesome/free-solid-svg-icons"
 
 function Content() {
     return(
@@ -108,8 +108,48 @@ function Content() {
 
             {/* 안내사항 */}
             <div className="info">
-                <div></div>
-                <div></div>
+                <div className="sns">
+                    <button className="sns_button">
+                        <img src="./images/info_ic_pro.png" alt="" />
+                        <p>공연안내 리플릿</p>
+                    </button>
+                    <button className="sns_button">
+                        <img src="./images/info_ic_y.png" alt="" />
+                        <p>유튜브</p>
+                    </button>
+                    <button className="sns_button">
+                        <img src="./images/info_ic_f.png" alt="" />
+                        <p>페이스북</p>
+                    </button>
+                    <button className="sns_button">
+                        <img src="./images/info_ic_i.png" alt="" />
+                        <p>인스타그램</p>
+                    </button>
+                </div>
+
+                <div className="artcenter">
+                    <div className="center_reserv">
+                        <img src="./images/info_ic_tel.png" alt=""></img>
+                        <div className="center_in">
+                            <h2>공연예매</h2>
+                            <div className="reserv_in">
+                                <h3>인터파크</h3>
+                                <h4>1544.1556</h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div className="center_tel">
+                        <h3>공연안내</h3>
+                        <h2>042.270.8333</h2>
+                    </div>
+
+                    <button className="center_seat">
+                        <img src="./images/info_ic_seat.png" alt=""></img>
+                        <h3>좌석배치도</h3>
+                    </button>
+
+                </div>
             </div>
 
             {/* 후원자 리스트 */}

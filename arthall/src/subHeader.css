@@ -1,0 +1,76 @@
+/* ========== 공통 서브헤더 ========== */
+.sub_header {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 144px;
+
+    width: 100%;
+
+    background-color: lightblue;
+}
+.sub_img {
+    width: 100%;
+    height: 250px;
+}
+.sub_title {
+    position: absolute;
+    left: 915px;
+    top: 180px;
+
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
+.sub_icon {
+    position: absolute;
+    left: 953px;
+    top: 235px;
+
+    width: 5px;
+    height: 45px;
+
+    background-color: #ffffffbd;
+}
+.sub_nav {
+    position: absolute;
+    top: 334px;
+
+    display: flex;
+    padding-left: 280px;
+
+    width: 100%;
+    height: 60px;
+}
+.sub_home {
+    padding-left: 19px;
+    padding-top: 17px;
+
+    width: 60px;
+    height: 60px;
+
+    background-color:#DF3B42;
+}
+.sub_home:hover {
+    background-color: #1F3042;
+}
+#home_btn {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.sub_nav li {
+    width: 250px;
+    height: 60px;
+
+    padding-top: 15px;
+
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background-color: #fff;
+}

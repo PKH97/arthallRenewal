@@ -1,5 +1,5 @@
 import React from "react";
-import './css/footer.css';
+import './footer.css';
 // import { Link } from 'react-router-dom';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -47,10 +47,10 @@ function Footer() {
 
             <div className="wrap_gide">
                 <ul>
-                    <li><Link>개인정보처리방침</Link></li>
-                    <li><Link>영상정보처리기기 운영 · 관리 방침</Link></li>
-                    <li><Link>이메일집단수집거부</Link></li>
-                    <li><Link>뷰어다운로드</Link></li>
+                    <li><Link style={{textDecoration:'none', color: '#fff'}}>개인정보처리방침</Link></li>
+                    <li><Link style={{textDecoration:'none', color: '#fff'}}>영상정보처리기기 운영 · 관리 방침</Link></li>
+                    <li><Link style={{textDecoration:'none', color: '#fff'}}>이메일집단수집거부</Link></li>
+                    <li><Link style={{textDecoration:'none', color: '#fff'}}>뷰어다운로드</Link></li>
                 </ul>
             </div>
 
