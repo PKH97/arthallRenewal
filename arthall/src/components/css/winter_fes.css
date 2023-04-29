@@ -1,0 +1,73 @@
+/* =============== 바디 =============== */
+.winter_fes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 147px;
+
+    width: 100%;
+
+    background-color: #fff;
+}
+
+
+/* =============== 컴폰넌트 타이틀 =============== */
+.winter_title {
+    margin: 50px 0 40px; 
+    width: 100%;
+    height: 38px;
+}
+.winter_title h1 {
+    font-size: 31px;
+    font-weight: 600;
+    padding-left: 42%;
+}
+
+/* =============== 공연 폼 =============== */
+.winter_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 1300px;
+}
+
+/* =============== 공연 정보 =============== */
+.winter_content {
+    width: 1300px;
+    height: 250px;
+
+    text-align: center;
+}
+.winter_content h2 {
+    padding-top: 25px;
+
+    font-size: 26px;
+    font-weight: 600;
+}
+.winter_content h3 {
+    padding-top: 20px;
+
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 30px;
+    color: #555;
+}
+
+
+/* =============== 공연 이미지 =============== */
+.winter_img {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 90px;
+}
+.winter_img>img {
+    width: 750px;
+    height: 1057px;
+
+    border: 1px solid #dbdbdb;
+}

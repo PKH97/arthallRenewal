@@ -1,0 +1,312 @@
+/* =============== 바디 =============== */
+.sponsor_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 147px;
+
+    width: 100%;
+
+    background-color: #fff;
+}
+
+/* =============== 컴포넌트 타이틀 =============== */
+.sponsor_info_title {
+    margin: 50px 0 40px; 
+    width: 100%;
+    height: 38px;
+
+    padding-left: 4.5%;
+}
+.sponsor_info_title h1 {
+    font-size: 31px;
+    font-weight: 600;
+    padding-left: 43.5%;
+}
+
+/* =============== 컨테이너 =============== */
+.sponsor_info_container {
+    width: 1300px;
+    height: 2000px;
+}
+
+/* =============== 경고문 =============== */
+.sponsor_info_warning {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 25px;
+    margin-bottom: 25px;
+
+    width: 1300px;
+    height: 75px;
+
+    border: 1px solid #D4D8DD;
+    background-color: #FCFDFE;
+}
+.sponsor_info_warning_icon {
+    margin-right: 10px;
+
+    width: 22px;
+    height: 22px;
+
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+
+    border-radius: 50%;
+    background-color: #ACB3BA;
+}
+.sponsor_info_warning h2 {
+    font-size: 16px;
+    font-weight:500;
+    color: #555;
+}
+.sponsor_info_warning strong {
+    font-size: 16px;
+    color: #555;
+}
+
+/* =============== 콘텐츠 =============== */
+.sponsor_info_content {
+    width: 1300px;
+}
+
+/* =============== 후원회소개 =============== */
+.sponsor_introduction {
+    display: flex;
+    margin-top: 30px;
+    width: 1300px;
+}
+.sponsor_introduction_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.sponsor_introduction_box {
+    width: 1000px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    border-bottom: 1px dashed #D4D8DD;
+}
+.sponsor_introduction_box h2 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* =============== 후원회 임원명단 =============== */
+.sponsor_list {
+    display: flex;
+    margin-top: 30px;
+    width: 1300px;
+}
+.sponsor_list_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.sponsor_list_box {
+    width: 1000px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    border-bottom: 1px dashed #D4D8DD;
+}
+.sponsor_list_box td:nth-child(2) {
+    width: 721px;
+}
+
+/* =============== 고문 및 자문위원 =============== */
+.sponsor_consultant {
+    display: flex;
+    margin-top: 30px;
+    width: 1300px;
+}
+.sponsor_consultant_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.sponsor_consultant_box {
+    width: 1000px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    border-bottom: 1px dashed #D4D8DD;
+}
+.sponsor_consultant_box td:nth-child(2) {
+    width: 721px;
+}
+
+/* =============== 보직이사 명단 =============== */
+.sponsor_director {
+    display: flex;
+    margin-top: 30px;
+    width: 1300px;
+}
+.sponsor_director_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.sponsor_director_box {
+    width: 1000px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    border-bottom: 1px dashed #D4D8DD;
+}
+.sponsor_director_box td:nth-child(2) {
+    width: 721px;
+}
+
+/* =============== 사업목적 =============== */
+.sponsor_business {
+    display: flex;
+    margin-top: 30px;
+    width: 1300px;
+}
+.sponsor_business_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.sponsor_business_box {
+    width: 1000px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    border-bottom: 1px dashed #D4D8DD;
+}
+.sponsor_business_box h2 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* =============== 추진방향 =============== */
+.sponsor_direction {
+    display: flex;
+    margin-top: 30px;
+    width: 1300px;
+}
+.sponsor_direction_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.sponsor_direction_box {
+    width: 1000px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    border-bottom: 1px dashed #D4D8DD;
+}
+.sponsor_direction_box h3 {
+    display: flex;
+
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+}
+.sponsor_direction_box p {
+    padding: 0;
+    margin: 0;
+    padding: 2px 10px 8px;
+    
+    font-size: 2px;
+    color: #333;
+}
+
+/* =============== 세부 추진계획 =============== */
+.sponsor_detail {
+    display: flex;
+    margin-top: 30px;
+    width: 1300px;
+}
+.sponsor_detail_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.sponsor_detail_box {
+    width: 1000px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    border-bottom: 1px dashed #D4D8DD;
+}
+.sponsor_detail_box h3 {
+    display: flex;
+
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+}
+.sponsor_detail_box p {
+    padding: 0;
+    margin: 0;
+    padding: 2px 10px 8px;
+    
+    font-size: 2px;
+    color: #333;
+}
+
+/* =============== 향후계획 =============== */
+.sponsor_future {
+    display: flex;
+    margin-top: 30px;
+    width: 1300px;
+}
+.sponsor_future_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.sponsor_future_box {
+    width: 1000px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.sponsor_future_box h3 {
+    display: flex;
+
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+}
+.sponsor_future_box h4 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+}
+.sponsor_future_box p {
+    padding: 0;
+    margin: 0;
+    padding: 2px 10px 8px;
+    
+    font-size: 2px;
+    color: #333;
+}
+.sponsor_future_box span {
+    padding: 0;
+    margin: 0;
+    margin-left: 15px;
+    padding-right: 5px;
+    
+    font-size: 2px;
+    color: #333;
+}

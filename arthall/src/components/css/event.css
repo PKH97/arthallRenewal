@@ -1,0 +1,128 @@
+/* =============== 바디 =============== */
+.event {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 147px;
+
+    width: 100%;
+
+    background-color: #fff;
+}
+
+/* =============== 컴포넌트 타이틀 =============== */
+.event_title {
+    margin: 50px 0 40px; 
+    width: 100%;
+    height: 38px;
+
+    padding-left: 4.5%;
+}
+.event_title h1 {
+    font-size: 31px;
+    font-weight: 600;
+    padding-left: 45%;
+}
+
+/* =============== 컨테이너 =============== */
+.event_container {
+    width: 1300px;
+    height: 1300px;
+}
+
+/* =============== 콘텐츠 =============== */
+.event_content {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.event_list {
+    display: flex;
+
+    margin-bottom: 30px;
+
+    width: 640px;
+    height: 230px;
+
+    border: 1px solid #ddd;
+}
+.event_poster {
+    width: 170px;
+    height: 230px;
+}
+.event_poster img {
+    width: 170px;
+    height: 230px;
+}
+
+.evnet_textboxs {
+    padding-top: 40px;
+
+    width: 470px;
+    height: 230px;
+}
+.evnet_textboxs p {
+    margin: 0;
+    padding-left: 22px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #cb0000;
+}
+.evnet_textboxs h3 {
+    margin: 0;
+
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #333;
+}
+.event_textbox {
+    margin-top: 30px;
+}
+.event_text {
+    display: flex;
+}
+.event_text h4 {
+    margin-right: 15px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.event_text h5 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.event_pagebtns {
+    display: flex;
+    justify-content: space-between;
+
+    position: relative;
+    left: 38%;
+
+    margin-top: 40px;
+
+    width: 300px;
+    height: 40px;
+}
+.event_pagebtn {
+    width: 35px;
+    height: 35px;
+
+    padding-top: 5px;
+
+    text-align: center;
+    font-weight: 600;
+    color: #778590;
+
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+.event_pagebtn:first-child {
+    color: #fff;
+    background-color: #474747;
+}

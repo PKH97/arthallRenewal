@@ -1,0 +1,465 @@
+/* =============== 바디 =============== */
+.member_ships {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 147px;
+
+    width: 100%;
+
+    background-color: #fff;
+}
+
+/* =============== 컴폰넌트 타이틀 =============== */
+.memberships_title {
+    margin: 50px 0 40px; 
+    width: 100%;
+    height: 38px;
+
+    padding-left: 4.5%;
+}
+.memberships_title h1 {
+    font-size: 31px;
+    font-weight: 600;
+    padding-left: 45%;
+}
+
+/* =============== 콘텐츠 =============== */
+.memberships_subtitle {
+    width: 1300px;
+    height: 80px;
+
+    text-align: center;
+}
+.memberships_subtitle h2 {
+    font-size: 26px;
+    font-weight: 600;
+}
+.memberships_subtitle h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #555;
+}
+
+
+.memberships_container {
+    width: 1300px;
+
+    padding-top: 16px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+
+    /* background-color: lightcoral; */
+}
+
+.memberships_rating {
+    display: flex;
+    margin-top: 20px;
+    width: 1300px;
+}
+.rating_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.rating_content {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0;
+    padding-bottom: 70px;
+
+    width: 1000px;
+
+    border-bottom: 1px dashed #ddd;
+}
+.rating_content li {
+    display: flex;
+
+    width: 320px;
+
+    border: 1px solid #ddd;
+}
+
+.rating_left {
+    width: 125px;
+    height: 300px;
+
+    text-align: center;
+    padding-top: 100px;
+}
+.rating_icon {
+    width: 40px;
+    height: 40px;
+    color: #fff;
+}
+.rating_left h4 {
+    font-size: 15px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.rating_right {
+    padding: 40px 0 0 20px;
+    width: 195px;
+    height: 300px;
+    background-color: #fff;
+}
+.rating_right i {
+    font-size: 40px;
+    font-weight: 800;
+    text-decoration: none;
+    color: #DF3B42;
+}
+.rating_right span {
+    font-size: 15px;
+    font-weight: 600;
+    color: #777;
+}
+.rating_right h5 {
+    padding-bottom: 15px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #DF3B42;
+}
+.rating_right h6 {
+    padding-bottom: 15px;
+    font-size: 17.5px;
+    font-weight: 600;
+    color: #333;
+}
+
+.rating_warning {
+    position: absolute;
+    left: 605px;
+    top: 980px;
+
+    font-size: 13px;
+    color: #00549D;
+}
+
+
+
+.memberships_benefit {
+    display: flex;
+    margin-top: 20px;
+    width: 1300px;
+}
+.benefit_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.benefit_contents {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+
+    width: 1000px;
+
+    border-bottom: 1px dashed #ddd;
+}
+.benefit_content {
+    display: flex;
+}
+.benefit_type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-right: 28px;
+    margin-bottom: 15px;
+    padding-top: 45px;
+    padding-left: 27px;
+
+    width: 175px;
+    height: 175px;
+
+    border-radius: 50%;
+    background-color: #efeeef;
+}
+.benefit_type h4 {
+    width: 120px;
+    height: 54px;
+
+    margin-top: 10px;
+
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+
+    color: #333;
+}
+.benefit_icon {
+    width: 120px;
+    height: 30px;
+
+    color: #555;
+}
+
+.benefit_ionfo {
+    width: 1000px;
+    padding-bottom: 20px;
+}
+.benefit_ionfo h3 {
+    display: flex;
+
+    font-size: 15px;
+    font-weight: 600;
+    color: #676A67;
+
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+
+    word-wrap: break-word;
+}
+.benefit_ionfo p {
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 8px;
+    font-size: 7px;
+    color: #000;
+}
+
+
+
+.memberships_service {
+    display: flex;
+    margin-top: 20px;
+
+    width: 1300px;
+}
+.service_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.service_content {
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 20px;
+
+    width: 1000px;
+
+    border-bottom: 1px dashed #ddd;
+}
+.service_content h3 {
+    display: flex;
+
+    font-size: 15px;
+    font-weight: 600;
+    color: #676A67;
+
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+
+    word-wrap: break-word;
+}
+.service_content p {
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 8px;
+    font-size: 7px;
+    color: #000;
+}
+
+
+.memberships_joinus {
+    display: flex;
+    margin-top: 30px;
+    width: 1300px;
+}
+.joinus_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.joinus_content {
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 40px;
+
+    width: 1000px;
+
+    border-bottom: 1px dashed #ddd;
+}
+.joinus_content h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+.joinus_content h3 {
+    display: flex;
+
+    font-size: 15px;
+    font-weight: 600;
+    color: #676A67;
+
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+
+    word-wrap: break-word;
+}
+.joinus_content h4 {
+    font-size: 15px;
+    font-weight: 600;
+
+    color: #676A67;
+}
+.joinus_content p {
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 8px;
+    font-size: 7px;
+    color: #000;
+}
+.joinus_content span {
+    margin-left: 15px;
+    padding-left: 10px;
+    padding-right: 8px;
+    font-size: 7px;
+    color: #bbb;
+}
+
+.joinus_button {
+    display: flex;
+
+    margin: 35px 15px;
+    padding: 14px 0 0 20px;
+
+    width: 360px;
+    height: 45px;
+
+    background-color: #DF3B42;
+    cursor: pointer;
+}
+.joinus_button:hover {
+    background-color: #1F3042;
+}
+.joinus_button h5 {
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;   
+}
+.joinus_icon {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;  
+}
+
+
+
+
+.memberships_chenge {
+    display: flex;
+    margin-top: 30px;
+    width: 1300px;
+}
+.chenge_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.change_content {
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 40px;
+
+    width: 1000px;
+}
+.chenge_content h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+.chenge_content h3 {
+    display: flex;
+
+    font-size: 15px;
+    font-weight: 600;
+    color: #676A67;
+
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+
+    word-wrap: break-word;
+}
+.chenge_content p {
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 8px;
+    font-size: 7px;
+    color: #000;
+}
+.chenge_content span {
+    padding-left: 10px;
+    padding-right: 8px;
+    font-size: 7px;
+    color: #bbb;
+}
+.chenge_bluetext {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #00549D;
+}
+.change_redtext {
+    margin-bottom: 30px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #DF3B42;
+}
+
+.change_textarea {
+    width: 100%;
+    height: 200px;
+}
+/* .change_checkbox {}
+.change_checkbox input {}
+.change_checkbox h6 {} */
+
+.change_button {
+    display: flex;
+
+    padding: 14px 0 0 30px;
+
+    width: 200px;
+    height: 45px;
+
+    background-color: #DF3B42;
+    cursor: pointer;
+}
+.change_button:hover {
+    background-color: #1F3042;
+}
+.change_button h5 {
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;   
+}
+.change_icon {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;  
+}

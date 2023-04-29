@@ -1,0 +1,39 @@
+/* =============== 바디 =============== */
+.packge {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 147px;
+
+    width: 100%;
+
+    background-color: #fff;
+}
+
+
+/* =============== 컴폰넌트 타이틀 =============== */
+.package_title {
+    margin: 50px 0 40px; 
+    width: 100%;
+    height: 38px;
+}
+.package_title h1 {
+    font-size: 31px;
+    font-weight: 600;
+    padding-left: 48%;
+}
+
+/* =============== 공연 폼 =============== */
+.package_container {
+    margin-bottom: 90px;
+}
+
+/* =============== 공연 이미지 =============== */
+.package_container>img {
+    width: 750px;
+    height: 1916px;
+
+    border: 1px solid #dbdbdb;
+}

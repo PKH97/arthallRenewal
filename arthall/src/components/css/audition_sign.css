@@ -1,0 +1,130 @@
+/* =============== 바디 =============== */
+.audition_sign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 147px;
+
+    width: 100%;
+
+    background-color: #fff;
+}
+
+/* =============== 컴포넌트 타이틀 =============== */
+.auditionsign_title {
+    margin: 50px 0 40px; 
+    width: 100%;
+    height: 38px;
+
+    padding-left: 4.5%;
+}
+.auditionsign_title h1 {
+    font-size: 31px;
+    font-weight: 600;
+    padding-left: 42%;
+}
+
+/* =============== 컨테이너 =============== */
+.auditionsign_container {
+    width: 1300px;
+    height: 1000px;
+}
+
+/* =============== 경고문 =============== */
+.auditionsign_warning {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 25px;
+
+    width: 1300px;
+    height: 74px;
+
+    border: 1px solid #ddd;
+    background-color: #FCFDFE;
+}
+.auditionsign_warning_icon {
+    width: 22px;
+    height: 22px;
+
+    margin-right: 10px;
+
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+
+    border-radius: 50%;
+    background-color: #ACB3BA;
+}
+.auditionsign_warning h2 {
+    font-size: 15px;
+    color: #555;
+}
+
+/* =============== 콘텐츠 =============== */
+.auditionsign_content {
+    margin-top: 50px;
+}
+.auditionsign_content table {
+    width: 100%;
+    height: 600px;
+}
+.auditionsign_content tr {
+    border: none;
+}
+.auditionsign_content th {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #ddd;
+    background-color: #F6F7F8;
+}
+.auditionsign_content td {
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+.auditionsign_content button {
+    width: 90px;
+    height: 35px;
+
+    font-weight: 600;
+    color: #555;
+    background-color: #dbdbdb;
+}
+.auditionsign_content button:hover {
+    border: 1px solid #333;
+    background-color: #bbb;
+}
+
+.auditionsign_pagebtns {
+    display: flex;
+    justify-content: space-between;
+
+    position: relative;
+    left: 38%;
+
+    margin-top: 40px;
+
+    width: 240px;
+    height: 40px;
+}
+.auditionsign_pagebtn {
+    width: 35px;
+    height: 35px;
+
+    padding-top: 5px;
+    text-align: center;
+    font-weight: 600;
+    color: #778590;
+
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+.auditionsign_pagebtn:first-child {
+    color: #fff;
+    background-color: #474747;
+}

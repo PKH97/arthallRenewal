@@ -1,0 +1,126 @@
+/* =============== 바디 =============== */
+.conven_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 147px;
+
+    width: 100%;
+
+    background-color: #fff;
+}
+
+/* =============== 컴포넌트 타이틀 =============== */
+.convenform_title {
+    margin: 50px 0 40px; 
+    width: 100%;
+    height: 38px;
+
+    padding-left: 4.5%;
+}
+.convenform_title h1 {
+    font-size: 31px;
+    font-weight: 600;
+    padding-left: 42%;
+}
+
+/* =============== 검색창 =============== */
+.convenform_top {
+    display: flex;
+    justify-content: space-between;
+
+    width: 1300px;
+    height: 45px;
+}
+.convenform_toptitle {
+    width: 150px;
+    height: 45px;
+
+    padding-top: 25px;
+}
+.convenform_toptitle h2 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+.convenform_toptitle strong {
+    color: red;
+    padding: 0px 2px;
+}
+.convenform_search {
+    width: 370px;
+    height: 45px;
+}
+.convenform_input {
+    width: 320px;
+    height: 43px;
+    outline: none;
+    border: 1px solid #ddd;
+    padding-left: 15px;
+}
+.convenform_btn {
+    width: 50px;
+    height: 45px;
+    background-color: #1F3042;
+} 
+.convenform_btn:hover {
+    background-color: #114B89;
+} 
+.convenform_icon {
+    width: 17px;
+    height: 17px;
+    font-size: 17px;
+    color: #fff;
+}
+
+/* =============== 콘텐츠 공통사항 =============== */
+.convenform_container {
+    width: 1300px;
+
+    padding-top: 16px;
+    margin-bottom: 80px;
+}
+.convenform_container table {
+    width: 100%;
+}
+.convenform_container th {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #ddd;
+    background-color: #F6F7F8;
+}
+.convenform_container td {
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+.convenform_button_icon {
+    width: 25px;
+    height: 25px;
+}
+
+.convenform_pagebtns {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 40px;
+
+    width: 100%;
+    height: 40px;
+}
+.convenform_pagebtn {
+    width: 35px;
+    height: 35px;
+
+    padding-top: 5px;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+
+    border: 1px solid #ddd;
+    background-color: #474747;
+    cursor: pointer;
+}

@@ -1,0 +1,670 @@
+/* =============== 바디 =============== */
+.rent_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 147px;
+
+    width: 100%;
+
+    background-color: #fff;
+}
+
+/* =============== 컴폰넌트 타이틀 =============== */
+.rentinfo_title {
+    margin: 50px 0 40px; 
+    width: 100%;
+    height: 38px;
+}
+.rentinfo_title h1 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 44.5%;
+}
+
+/* =============== 컴포넌트 탭스 =============== */
+.rentinfo_tab {
+    width: 1300px;
+    color: #000;
+
+    margin-bottom: 80px;
+}
+#fill-tab-example {
+    padding: 0;
+    margin: 0;
+
+    width: 300px;
+    height: 50px;
+
+    color: #000;
+}
+.mb-3 {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: flex-start;
+
+    width: 100%;
+    height: 40px;
+}
+.mb-3 li {
+    padding: 0;
+    margin: 0;
+
+    width: 25%;
+    height: 40px;
+}
+
+/* #request_tab {}
+.request_container {} */
+
+/* =============== 신청안내 =============== */
+.request_01 {
+    display: flex;
+
+    margin-top: 50px;
+
+    width: 1300px;
+    height: 550px;
+}
+.req01_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.req01_content {
+    width: 1000px;
+    height: 550px;
+
+    border-bottom: 1px dashed #D4D8DD;
+}
+.req01_top {
+    width: 100%;
+    height: 300px;
+
+    padding-left: 30px;
+    padding-top: 35px;
+    border: 1px solid #ddd;
+    background-color: #FCFDFE;
+}
+.req01_top h2 {
+    font-size: 20px;
+    /* font-size: 500; */
+}
+.req01_top h3 {
+    display: flex;
+
+    font-size: 14px;
+    font-weight: 600;
+    color: #676A67;
+
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+}
+.req01_top h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #676A67;
+}
+.req01_top p {
+    padding-left: 10px;
+    padding-right: 8px;
+    font-size: 7px;
+    color: #000;
+}
+.req01_top span {
+    padding-left: 10px;
+    padding-right: 8px;
+    font-size: 7px;
+    color: #bbb;
+}
+
+.req01_bottom {
+    margin-top: 20px;
+
+    width: 100%;
+    height: 200px;
+
+    padding-left: 30px;
+    padding-top: 35px;
+    border: 1px solid #ddd;
+    background-color: #FCFDFE;
+}
+.req01_bottom h2 {
+    font-size: 20px;
+    font-size: 500;
+}
+.req01_bottom h3 {
+    display: flex;
+    
+    font-size: 14px;
+    font-weight: 600;
+    color: #676A67;
+
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+}
+.req01_bottom p {
+    padding-left: 10px;
+    padding-right: 8px;
+    font-size: 7px;
+    color: #000;
+}
+
+/* =============== 제출서류 =============== */
+.request_02 {
+    display: flex;
+
+    margin-top: 30px;
+
+    width: 1300px;
+    height: 300px;
+}
+.req02_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.req02_content {
+    width: 1000px;
+    height: 300px;
+
+    border-bottom: 1px dashed #D4D8DD;
+}
+.req02_content h3 {
+    display: flex;
+    
+    font-size: 14px;
+    font-weight: 600;
+    color: #676A67;
+
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+}
+.req02_content p {
+    padding-left: 10px;
+    padding-right: 8px;
+    font-size: 7px;
+    color: #000;
+}
+.req02_button {
+    display: flex;
+
+    margin-top: 10px;
+    padding-top: 12px;
+    padding-left: 30px;
+
+    width: 220px;
+    height: 44px;
+
+    background-color: #DF3B42;
+    cursor: pointer;
+}
+.req02_button:hover {
+    background-color: #1F3042;
+}
+.req02_button h4 {
+    font-size: 16px;
+    font-size: 800;
+    color: #fff;
+}
+#req02_icon {
+    padding-left: 5px;
+    font-size: 16px;
+    font-size: 500;
+    color: #fff;
+}
+
+/* =============== 신청 유의사항 =============== */
+.request_03 {
+    display: flex;
+
+    margin-top: 30px;
+
+    width: 1300px;
+    height: 425px;
+}
+.req03_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.req03_content {
+    width: 1000px;
+    height: 425px;
+
+    border-bottom: 1px dashed #D4D8DD;
+}
+.req03_content h3 {
+    display: flex;
+    
+    font-size: 14px;
+    font-weight: 600;
+    color: #676A67;
+
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+}
+.req03_content p {
+    padding-left: 10px;
+    padding-right: 8px;
+    font-size: 7px;
+    color: #000;
+}
+.req03_content h4 {
+    padding-left: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #676A67;
+}
+.req03_content span {
+    padding-left: 10px;
+    padding-right: 8px;
+    font-size: 7px;
+    color: #bbb;
+}
+
+/* =============== 대관승인 =============== */
+.request_04 {
+    display: flex;
+
+    margin-top: 30px;
+
+    width: 1300px;
+    height: 150px;
+}
+.req04_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.req04_content {
+    width: 1000px;
+    height: 150px;
+
+    border-bottom: 1px dashed #D4D8DD;
+}
+.req04_content h3 {
+    display: flex;
+    
+    font-size: 14px;
+    font-weight: 600;
+    color: #676A67;
+
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+}
+.req04_content p {
+    padding-left: 10px;
+    padding-right: 8px;
+    font-size: 7px;
+    color: #000;
+}
+
+/* =============== 납부방식 =============== */
+.request_05 {
+    display: flex;
+
+    margin-top: 30px;
+
+    width: 1300px;
+    height: 180px;
+}
+.req05_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.req05_content {
+    width: 1000px;
+    height: 180px;
+
+    border-bottom: 1px dashed #D4D8DD;
+}
+.req05_content h3 {
+    display: flex;
+    
+    font-size: 14px;
+    font-weight: 600;
+    color: #676A67;
+
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+}
+.req05_content p {
+    padding-left: 10px;
+    padding-right: 8px;
+    font-size: 7px;
+    color: #000;
+}
+
+/* =============== 환불 =============== */
+.request_06 {
+    display: flex;
+
+    margin-top: 30px;
+
+    width: 1300px;
+    height: 100px;
+}
+.req06_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.req06_content {
+    width: 1000px;
+    height: 100px;
+
+    border-bottom: 1px dashed #D4D8DD;
+}
+.req06_content h3 {
+    display: flex;
+    
+    font-size: 14px;
+    font-weight: 600;
+    color: #676A67;
+
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+}
+.req06_content p {
+    padding-left: 10px;
+    padding-right: 8px;
+    font-size: 7px;
+    color: #000;
+}
+
+/* =============== 유의사항 =============== */
+.request_07 {
+    display: flex;
+
+    margin-top: 30px;
+
+    width: 1300px;
+    height: 425px;
+}
+.req07_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.req07_content {
+    width: 1000px;
+    height: 425px;
+
+    border-bottom: 1px dashed #D4D8DD;
+}
+.req07_content h3 {
+    display: flex;
+    
+    font-size: 14px;
+    font-weight: 600;
+    color: #676A67;
+
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+}
+.req07_content p {
+    padding-left: 10px;
+    padding-right: 8px;
+    font-size: 7px;
+    color: #000;
+}
+.req07_content table {
+    width: 950px;
+    height: 90px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.req07_content th {
+    background-color: #F6F7F8;
+}
+.req07_content td {
+    text-align: center;
+}
+
+/* =============== 접수 =============== */
+.request_08 {
+        display: flex;
+
+    margin-top: 30px;
+
+    width: 1300px;
+    height: 100px;
+}
+.req08_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.req08_content {
+    width: 1000px;
+    height: 100px;
+}
+.req08_content h3 {
+    display: flex;
+    
+    font-size: 14px;
+    font-weight: 600;
+    color: #676A67;
+
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+}
+.req08_content p {
+    padding-left: 10px;
+    padding-right: 8px;
+    font-size: 7px;
+    color: #000;
+}
+.req08_content h4 {
+    padding-left: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #676A67;
+}
+.req08_content span {
+    padding-left: 10px;
+    padding-right: 8px;
+    font-size: 7px;
+    color: #bbb;
+}
+
+/* =============== 대관절차 =============== */
+.step_container {
+    width: 1300px;
+    margin-top: 50px;
+}
+.step_image {
+    width: 1280px;
+    height: 224px;
+}
+
+.step_content {
+    display: flex;
+    flex-flow: wrap;
+
+    padding: 0;
+    margin: 0;
+    padding-top: 45px;
+    margin-top: 45px;
+
+    width: 1300px;
+    height: 600px;
+
+    border-top: 1px dashed #D4D8DD;
+}
+.step_content li {
+    display: flex;
+
+    width: 650px;
+    height: 100px;
+
+    margin-bottom: 20px;
+}
+.circle_title {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 30px;
+
+    width: 90px;
+    height: 90px;
+
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+
+    border-radius: 50%;
+    background-color: #184E94;
+}
+.step_body {
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 8px;
+    padding-top: 12px;
+}
+.step_content li h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #184E94;
+}
+.step_content li h3 {
+    font-size: 14px;
+    color: #676A67;
+}
+
+
+/* =============== 조례시행규칙 =============== */
+.rule_container {
+    display: flex;
+
+    width: 1300px;
+}
+.rule_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.rule_content {
+    width: 1000px;
+}
+.rule_content h3 {
+    display: flex;
+
+    font-size: 14px;
+    font-weight: 600;
+    color: #676A67;
+
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+}
+.rule_content h4 {
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #676A67;
+}
+.rule_content h5 {
+    font-size: 16px;
+    font-size: 800;
+    color: #fff;
+}
+.rule_content p {
+    padding-left: 10px;
+    padding-right: 8px;
+    font-size: 7px;
+    color: #000;
+}
+.rule_content span {
+    padding-left: 10px;
+    padding-right: 8px;
+    font-size: 7px;
+    color: #ddd;
+}
+.arthall_rule00 {
+    margin-bottom: 45px;
+}
+.arthall_rule01 {
+    margin-bottom: 45px;
+}
+.arthall_rule02 {
+    margin-bottom: 45px;
+}
+.arthall_rule03 {
+    margin-bottom: 45px;
+}
+.arthall_rule04 {
+    margin-bottom: 45px;
+}
+.arthall_rule05 {
+    margin-bottom: 45px;
+}
+.arthall_rule06 {
+    margin-bottom: 45px;
+}
+.rule_box {
+    padding: 15px 30px;
+    margin-bottom: 8px;
+    font-size: 12px;
+    background-color: #F0F2F6;
+}
+.rule_buttons {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 10px;
+
+    width: 500px;
+    height: 50px;
+}
+.rule_btn {
+    display: flex;
+    padding-top: 12px;
+    padding-left: 30px;
+
+    width: 220px;
+    height: 44px;
+
+    background-color: #DF3B42;
+    cursor: pointer;
+}
+.rule_btn:hover {
+    background-color: #1F3042;
+}
+#rule01_icon {
+    padding-left: 5px;
+    font-size: 16px;
+    font-size: 500;
+    color: #fff;
+}
+#rule02_icon {
+    padding-left: 5px;
+    font-size: 16px;
+    font-size: 500;
+    color: #fff;
+}

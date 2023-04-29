@@ -1,0 +1,155 @@
+/* ========== 상단 ========== */
+.header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 145px;
+    box-shadow: 0px 3px 6px -1px #bbbbbb;
+}
+.test {
+    width: 8.5%;
+    height: 100px;
+
+    background-color: lightblue;
+
+    padding-top: 35px;
+
+    font-size: 25px;
+}
+
+/* ========== 상단버튼 ========== */
+/* .header_in {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    width: 100%;
+    height: 45px;
+
+    background-color: #FAFAFA;
+    border-bottom: 1px solid #ccc;
+} */
+/* .login_btn {
+    width: 95px;
+    height: 45px;
+
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #FAFAFA;
+}
+.english_btn {
+    width: 110px;
+    height: 45px;
+
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #FAFAFA;
+}
+.daejeon_btn {
+    width: 120px;
+    height: 45px;
+
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #FAFAFA;
+} */
+
+
+/* ========== 상단 메뉴바 ========== */
+.header_menu {
+    display: flex;
+
+    width: 100%;
+    height: 100px;
+
+    background-color: #fff;
+    border-bottom: 1px solid #a1a1a1;
+    box-shadow: 0 0px 4px -4px black;
+}
+
+/* ========== 상단 로고 ========== */
+/* .logo {
+    width: 23%;
+    height: 100px;
+    background-color: #fff;
+}
+.logo img {
+    margin-top: 35px;
+    margin-left: 90px;
+} */
+
+/* ========== 상단 메인 메뉴 ========== */
+.header_manu_list {
+    display: flex;
+    justify-content: space-between;
+
+    width: 60%;
+    height: 100px;
+
+    background-color: #fff;
+}
+.header_manu_list li {
+    display: flex;
+    justify-content: center;
+
+    width: 100px;
+    height: 30px;
+
+    margin-top: 35px;
+    margin-right: 20px;
+
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+
+    color: black;
+}
+
+
+/* ========== 상단 검색창 ========== */
+.search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 17%;
+    height: 100px;
+    
+    background-color: #fff;
+}
+.search_bar {
+    display: flex;
+    width: 200px;
+    height: 30px;
+}
+.search_bar:hover {
+    color: rgb(5, 5, 102);
+}
+.search_btn {
+    width: 130px;
+    height: 30px;
+    border-bottom: 2px solid #000;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+    color: #a1a1a1;
+    cursor: pointer;
+}
+.search_btn:hover {
+    color: rgb(5, 5, 102);
+    border-bottom: 2px solid rgb(5, 5, 102);
+}
+/* .fa-magnifying-glass {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.fa-bars {
+    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.fa-bars:hover {
+    color: rgb(5, 5, 102);
+} */

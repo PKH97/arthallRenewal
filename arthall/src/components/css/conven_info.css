@@ -1,0 +1,251 @@
+/* =============== 바디 =============== */
+.conven_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 147px;
+
+    width: 100%;
+
+    background-color: #fff;
+}
+
+/* =============== 컴포넌트 타이틀 =============== */
+.conveninfo_title {
+    margin: 50px 0 40px; 
+    width: 100%;
+    height: 38px;
+
+    padding-left: 4.5%;
+}
+.conveninfo_title h1 {
+    font-size: 31px;
+    font-weight: 600;
+    padding-left: 42%;
+}
+
+/* =============== 콘텐츠 공통사항 =============== */
+.conveninfo_container {
+    width: 1300px;
+
+    padding-top: 16px;
+    padding-bottom: 100px;
+}
+.conveninfo_container h3 {
+    display: flex;
+
+    font-size: 13px;
+    font-weight: 600;
+    color: #676A67;
+
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+
+    word-wrap: break-word;
+}
+.conveninfo_container h4 {
+    padding-left: 15px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #676A67;
+
+    word-wrap: break-word;
+}
+.conveninfo_container h5 {
+    padding-right: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+.conveninfo_container h6 {
+    padding-left: 30px;
+    font-size: 13px;
+    color: #015dac;
+}
+.conveninfo_container p {
+    padding-left: 10px;
+    padding-right: 8px;
+    font-size: 7px;
+    color: #000;
+}
+.conveninfo_container span {
+    padding-left: 10px;
+    padding-right: 8px;
+    font-size: 7px;
+    color: #bbb;
+}
+
+/* =============== 경고문 =============== */
+.conveninfo_warning {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 25px;
+    margin-bottom: 25px;
+
+    width: 1300px;
+    height: 75px;
+
+    border: 1px solid #D4D8DD;
+    background-color: #FCFDFE;
+}
+.conven_warning_icon {
+    margin-right: 10px;
+
+    width: 22px;
+    height: 22px;
+
+    font-size: 15px;
+    font-weight: 800;
+    text-align: center;
+    color: #fff;
+
+    border-radius: 50%;
+    background-color: #ACB3BA;
+}
+.conven_warning_content {
+    font-size: 16px;
+    font-weight: 800;
+    color: #555;
+}
+
+/* =============== 대관공간 =============== */
+.conveninfo_plays {
+    display: flex;
+    padding-top: 20px;
+}
+.conven_plays_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.conven_plays_content {
+    padding-bottom: 25px;
+    width: 1000px;
+    border-bottom: 1px dashed #CFCFCF;
+}
+
+/* =============== 대관신청 시 제출서류 =============== */
+.conveninfo_paper {
+    display: flex;
+    padding-top: 20px;
+}
+.conven_paper_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.conven_paper_content {
+    padding-bottom: 25px;
+    width: 1000px;
+    border-bottom: 1px dashed #CFCFCF;
+}
+.conven_paper_button {
+    display: flex;
+
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 13px 30px;
+
+    width: 220px;
+    height: 44px;
+
+    background-color: #DF3B42;
+    cursor: pointer;
+}
+.conven_paper_button:hover {
+    background-color: #1F3042;
+}
+#conven_paper_icon {
+    font-size: 15px;
+    color: #fff;
+}
+
+/* =============== 대관신청 시 유의사항 =============== */
+.conveninfo_check {
+    display: flex;
+    padding-top: 20px;
+}
+.conven_check_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.conven_check_content {
+    padding-bottom: 25px;
+    width: 1000px;
+    border-bottom: 1px dashed #CFCFCF;
+}
+
+/* =============== 지원시설 =============== */
+.conveninfo_support {
+    display: flex;
+    padding-top: 20px;
+}
+.conven_support_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.conven_support_content {
+    padding-bottom: 25px;
+    width: 1000px;
+    border-bottom: 1px dashed #CFCFCF;
+}
+
+/* =============== 기타 =============== */
+.conveninfo_etc {
+    display: flex;
+    padding-top: 20px;
+}
+.convent_ect_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.convent_ect_content {
+    padding-bottom: 25px;
+    width: 1000px;
+    border-bottom: 1px dashed #CFCFCF;
+}
+
+/* =============== 대관문의 및 접수 =============== */
+.conveninfo_inquiry {
+    display: flex;
+    padding-top: 20px;
+}
+.conven_inquiry_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.conven_inquiry_content {
+    padding-bottom: 25px;
+    width: 1000px;
+    border-bottom: 1px dashed #CFCFCF;
+}
+
+/* =============== 대관료 환불 =============== */
+.conveninfo_payback {
+    display: flex;
+    padding-top: 20px;
+}
+.conven_payback_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.conven_payback_content {
+    padding-bottom: 25px;
+    width: 1000px;
+}

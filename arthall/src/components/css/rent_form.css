@@ -1,0 +1,130 @@
+/* =============== 바디 =============== */
+.rent_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 147px;
+
+    width: 100%;
+
+    background-color: #fff;
+}
+
+/* =============== 컴포넌트 타이틀 =============== */
+.rentform_title {
+    margin: 50px 0 40px; 
+    width: 100%;
+    height: 38px;
+
+    padding-left: 4.5%;
+}
+.rentform_title h1 {
+    font-size: 31px;
+    font-weight: 600;
+    padding-left: 44.5%;
+}
+
+/* =============== 대관서식 top =============== */
+.rentform_top {
+    display: flex;
+    justify-content: space-between;
+
+    width: 1300px;
+    height: 45px;
+}
+.rentform_toptitle {
+    width: 150px;
+    height: 45px;
+
+    padding-top: 25px;
+}
+.rentform_toptitle h2 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+.rentform_toptitle strong {
+    color: red;
+    padding: 0px 2px;
+}
+
+.rentform_search {
+    width: 370px;
+    height: 45px;
+}
+.rentform_input {
+    width: 320px;
+    height: 43px;
+    outline: none;
+    border: 1px solid #ddd;
+    padding-left: 15px;
+}
+.rentform_btn {
+    width: 50px;
+    height: 45px;
+    background-color: #1F3042;
+}
+.rentform_btn:hover {
+    background-color: #114B89;
+}
+.rentform_icon {
+    width: 17px;
+    height: 17px;
+    font-size: 17px;
+    color: #fff;
+}
+
+/* =============== 대관서식 =============== */
+.rentform_container {
+    width: 1300px;
+    height: 800px;
+    padding-top: 16px;
+}
+.rentform_container table {
+    width: 100%;
+    height: 600px;
+}
+.rentform_container tr {
+    border: none;
+}
+.rentform_container th {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #ddd;
+    background-color: #F6F7F8;
+}
+.rentform_container td {
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+.formdown_icon {
+    width: 25px;
+    height: 25px;
+}
+
+.rentform_pagebtns {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 40px;
+
+    width: 100%;
+    height: 40px;
+}
+.rentform_pagebtn {
+    width: 35px;
+    height: 35px;
+
+    padding-top: 5px;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+
+    border: 1px solid #ddd;
+    background-color: #474747;
+    cursor: pointer;
+}

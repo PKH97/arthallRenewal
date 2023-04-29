@@ -1,0 +1,158 @@
+/* =============== 바디 =============== */
+.public_rent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 147px;
+
+    width: 100%;
+
+    background-color: #fff;
+}
+
+/* =============== 컴포넌트 타이틀 =============== */
+.public_title {
+    margin: 50px 0 40px; 
+    width: 100%;
+    height: 38px;
+
+    padding-left: 4.5%;
+}
+.public_title h1 {
+    font-size: 31px;
+    font-weight: 600;
+    padding-left: 42%;
+}
+
+/* =============== 대관공고 top =============== */
+.public_top {
+    display: flex;
+    justify-content: space-between;
+
+    width: 1300px;
+    height: 45px;
+}
+.public_toptitle {
+    width: 150px;
+    height: 45px;
+
+    padding-top: 25px;
+}
+.public_toptitle h2 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+.public_toptitle strong {
+    color: red;
+    padding: 0px 2px;
+}
+
+.public_search {
+    width: 370px;
+    height: 45px;
+}
+.public_input {
+    width: 320px;
+    height: 43px;
+    outline: none;
+    border: 1px solid #ddd;
+    padding-left: 15px;
+}
+.public_btn {
+    width: 50px;
+    height: 45px;
+    background-color: #1F3042;
+}
+.public_btn:hover {
+    background-color: #114B89;
+}
+.public_icon {
+    width: 17px;
+    height: 17px;
+    font-size: 17px;
+    color: #fff;
+}
+
+/* =============== 대관공고 =============== */
+.public_container {
+    width: 1300px;
+    height: 800px;
+    padding-top: 16px;
+}
+.public_container table {
+    width: 100%;
+    height: 600px;
+}
+.public_container tr {
+    border: none;
+}
+.public_container th {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #ddd;
+    background-color: #F6F7F8;
+}
+.public_container td {
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+.public_box {
+    position: relative;
+    left: 30px;
+
+    width: 100px;
+    height: 36px;
+    
+    padding-top: 7px;
+    font-weight: 800;
+    color: #778590;
+
+    background-color: #E9E9E9;
+}
+.container_icon {
+    width: 25px;
+    height: 25px;
+}
+
+.public_pagebtns {
+    display: flex;
+    justify-content: space-between;
+
+    position: relative;
+    left: 38%;
+
+    margin-top: 40px;
+
+    width: 240px;
+    height: 40px;
+}
+.public_pagebtn {
+    width: 35px;
+    height: 35px;
+
+    padding-top: 5px;
+    text-align: center;
+    font-weight: 600;
+    color: #778590;
+
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+.public_pagebtn:nth-child(1) {
+    width: 35px;
+    height: 35px;
+
+    padding-top: 5px;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+
+    border: 1px solid #ddd;
+    background-color: #474747;
+    cursor: pointer;
+}

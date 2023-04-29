@@ -1,0 +1,112 @@
+/* =============== 관리운영조례 =============== */
+.management_container {
+    display: flex;
+
+    margin-top: 50px;
+
+    width: 1300px;
+    margin-top: 50px;
+}
+
+.management_title {
+    width: 300px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+.management_content {
+    width: 1000px;
+}
+.management_content h2 {
+    margin-top: 35px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.management_content h3 {
+    display: flex;
+
+    font-size: 13px;
+    font-weight: 600;
+    color: #676A67;
+
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+
+    word-wrap: break-word;
+}
+.management_content h4 {
+    padding-left: 15px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #676A67;
+
+    word-wrap: break-word;
+}
+.management_content h5 {
+    font-size: 13px;
+    font-weight: 600;
+    color: #676A67;
+
+    word-wrap: break-word;
+}
+.management_content h6 {
+    font-size: 13px;
+    font-weight: 600;
+    color: #676A67;
+
+    word-wrap: break-word;
+}
+.management_content p {
+    padding-left: 10px;
+    padding-right: 8px;
+    font-size: 7px;
+    color: #000;
+}
+.management_content span {
+    padding-left: 10px;
+    padding-right: 8px;
+    font-size: 7px;
+    color: #bbb;
+}
+.info_box {
+    padding: 15px 15px;
+    margin-bottom: 8px;
+    font-size: 12px;
+    background-color: #F0F2F6;
+}
+.info_inbox {
+    width: 900px;
+    padding: 20px 15px;
+    word-wrap: break-word;
+}
+.info_unit {
+    display: flex;
+    justify-content: right;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.management_content table {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.management_content th {
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #36364F;
+    background-color: #F6F7F8;
+}
+.management_content td {
+    font-size: 13px;
+    font-weight: 600;
+    color: #676A67;
+} 
+.table_box {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    padding: 15px 25px;
+    border: 1px dashed #ddd;
+    background-color: #F9F9F9;
+}

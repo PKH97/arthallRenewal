@@ -1,0 +1,141 @@
+/* 바디 크기 설정 */
+.sub_container {
+    width: 100%;
+
+    background-color: lightblue;
+}
+
+/* ========== 공통 서브헤더 ========== */
+.sub_header {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    top: 145px;
+    
+    width: 100%;
+    height: 250px;
+
+    background-image: url(/public/images/sub-banner.jpg);
+    background-size: 100% 250px;
+}
+.sub_title {
+    position: relative;
+    top: 60px;
+
+    width: 100%;
+    height: 40px;
+
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
+.sub_icon {
+    position: relative;
+    top: 65px;
+    left: 49.8%;
+
+    width: 5px;
+    height: 45px;
+
+    background-color: #ffffffbd;
+}
+.sub_nav {
+    position: relative;
+    top: 97px;
+
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: 60px;
+}
+.sub_nav ul {
+    display: flex;
+    
+    margin: 0;
+    padding: 0;
+
+    width: 1300px;
+    height: 60px;
+
+    background-color: #fff;
+}
+
+.home_button {
+    width: 80px;
+    height: 60px;
+
+    background-color: #df3b42;
+}
+.home_button:hover {
+    background-color:  #1f3042;
+}
+.home_icon {
+    width: 20px;
+    height: 20px;
+
+    padding-left: 18px;
+    padding-top: 20px;
+
+    color: #fff;
+}
+
+.sub_nav_list {
+    width: 205px;
+    height: 60px;
+
+    cursor: pointer;
+}
+.sub_nav_list:hover {
+    color: #fff;
+    background-color: #184e94;
+}
+.sub_nav_list:hover .nav_main {
+    display: block;
+}
+.sub_nav_list h2 {
+    width: 205px;
+    height: 38px;
+
+    margin-top: 13px;
+
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.nav_main {
+    display: none;
+
+    width: 204px;
+    height: 200px;
+
+    background-color: #fff;
+}
+.nav_main_button {
+    display: flex;
+    flex-direction: column;
+
+    width: 204px;
+    height: 200px;
+
+    padding-top: 13px;
+}
+.nav_main_button li {
+    width: 204px;
+    height: 100%;
+
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+        
+    color: #000;
+    cursor: pointer;
+}
+
+
+
+.sub_content {
+    margin-top: 145px;
+}
